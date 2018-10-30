@@ -14,7 +14,7 @@ our @EXPORT = qw/tabix_open tabix_close tabix_read tabix_query tabix_getnames ta
 our $VERSION = '0.2.0';
 
 require XSLoader;
-XSLoader::load('Tabix', $VERSION);
+#XSLoader::load('Tabix', $VERSION);
 
 sub new {
   my $invocant = shift;
